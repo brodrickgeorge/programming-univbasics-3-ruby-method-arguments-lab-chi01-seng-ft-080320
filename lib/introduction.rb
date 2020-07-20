@@ -1,8 +1,8 @@
-def introduction (name)
-  puts "Hi, my name is #{name}."
+def introduction (name, language = 'Ember,js')
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 
-introduction 'Josh'
+introduction 'Dan'
 
 
 
